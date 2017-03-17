@@ -32,13 +32,13 @@ input[type="button"],input[type="submit"]{
       margin:50px;
       width:250px;
       height:250px;
-      background: #1abc9c;
+      background: #a9a9a9;
       transform:rotate(45deg);
       -ms-transform:rotate(45deg);
       -webkit-transform:rotate(45deg);
       position:relative;
       font-weight:bold;
-      font-size:1.2em;
+      font-size:1.0em;
       font-family:"Times Roman",Serif;
       color:white;
       text-align:center;
@@ -46,7 +46,7 @@ input[type="button"],input[type="submit"]{
     .diamond:before{
       color:#fff;
       font-weight:bold;
-      font-size:1.2em;
+      font-size:1.0em;
       font-family:"Times Roman",Serif;
       
      //background: #1abc9c;//
@@ -71,14 +71,14 @@ input[type="button"],input[type="submit"]{
 position: absolute;
 color:#fff;
       font-weight:bold;
-      font-size:1.2em;
+      font-size:1.1em;
       font-family:"Times Roman",Serif;
 
   width: 100%;
   //background:#1abc9c;//
   color:#fff;
   -webkit-transform: rotate(315deg) translateY(50%);
-          transform: rotate(315deg) translateY(30%);
+          transform: rotate(315deg) translateY(50%);
   -webkit-transform-origin: -100px -100px;
           transform-origin: 120px 120px;
 }
@@ -87,16 +87,16 @@ color:#fff;
 position: absolute;
 color:#fff;
       font-weight:bold;
-      font-size:1.2em;
+      font-size:1.1em;
       font-family:"Times Roman",Serif;
 
   width: 100%;
-  /*background:#1abc9c;*/
+  /*background:#333331;*/
   color:#fff;
-  -webkit-transform: rotate(315deg) translateY(30%);
-          transform: rotate(315deg) translateY(30%);
+  -webkit-transform: rotate(315deg) translateY(75%);
+          transform: rotate(315deg) translateY(75%);
   -webkit-transform-origin: -100px -100px;
-          transform-origin: 120px 120px;
+          transform-origin: 100px 100px;
 }
 
 
@@ -555,11 +555,11 @@ font-weight:600;
   height: 250px;
   
   z-index: -1;
-  -webkit-transform: skewY(0deg);
+ /* -webkit-transform: skewY(0deg);
   -moz-transform: skewY(-0deg);
   -ms-transform: skewY(-0deg);
   -o-transform: skewY(-0deg);
-  transform: skewY(-0deg);
+  transform: skewY(-0deg);*/
   -webkit-backface-visibility: hidden;
   backface-visibility: initial;
 }
@@ -592,11 +592,11 @@ font-weight:600;
   width: 100%;
   height: 60px;
   background: #00bcd4;
-  -webkit-transform: skewY(2.5deg);
+  /*-webkit-transform: skewY(2.5deg);
   -moz-transform: skewY(2.5deg);
   -ms-transform: skewY(2.5deg);
   -o-transform: skewY(2.5deg);
-  transform: skewY(2.5deg);
+  transform: skewY(2.5deg);*/
   -webkit-backface-visibility: hidden;
 }
 
@@ -643,8 +643,8 @@ section {
 .banner-text {
     position: absolute;
     top: 40%;
-     background: rgba(12, 11, 11, 0.57);
-    padding: 2em 0;
+     //background: rgba(12, 11, 11, 0.57);
+    //padding: 2em 0;
     width: 7%;
     text-align: center;
     margin: 0 auto;
@@ -697,8 +697,8 @@ section {
     -o-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);*/
-    color: #d9e0e2;
-    padding: 130px 100px 250px 100px;
+    //color: #d9e0e2;
+    padding: 100px 100px 250px 100px;
 }
 
 .se-slope:nth-child(even) .se-content{
@@ -1130,7 +1130,7 @@ p.galleryp {
     -ms-transform: rotate(-3deg);
     transform: rotate(-3deg);
     color: #d9e0e2;
-    padding: 62px 100px 210px 100px;*/
+    padding: 62px 250px 210px 100px;*/
 }
 /*--//gallery--*/
 /*-- blog --*/
@@ -1239,7 +1239,8 @@ color:#fff;
 }
 .contact p {
     color: #fff;
-    font-size: 17px;
+    font-size: 32px;
+    font-family:"Times Roman",Serif;
     line-height: 30px;
 }
 .contact p.sub {
