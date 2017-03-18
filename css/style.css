@@ -77,8 +77,8 @@ color:#fff;
   width: 100%;
   //background:#1abc9c;//
   color:#fff;
-  -webkit-transform: rotate(315deg) translateY(50%);
-          transform: rotate(315deg) translateY(50%);
+  -webkit-transform: rotate(315deg) translateY(60%);
+          transform: rotate(315deg) translateY(60%);
   -webkit-transform-origin: -100px -100px;
           transform-origin: 120px 120px;
 }
@@ -93,8 +93,8 @@ color:#fff;
   width: 100%;
   /*background:#333331;*/
   color:#fff;
-  -webkit-transform: rotate(315deg) translateY(75%);
-          transform: rotate(315deg) translateY(75%);
+  -webkit-transform: rotate(315deg) translateY(85%);
+          transform: rotate(315deg) translateY(85%);
   -webkit-transform-origin: -100px -100px;
           transform-origin: 100px 100px;
 }
